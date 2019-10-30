@@ -1,0 +1,45 @@
+html {
+    background-color: #10B9EB;
+    background-image: linear-gradient(#10B9EB, white);
+    height: 100%;
+}
+body {
+    top: 0;
+    left: 0;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #10B9EB;
+    background-image: linear-gradient(#10B9EB, white);
+    height: 100%;
+    text-align: center;
+}
+body h1 {
+    transform: translateY(40vh);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10B9EB;
+}
+
+li {
+    float: right;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}

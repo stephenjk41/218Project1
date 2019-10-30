@@ -3,7 +3,7 @@
 //get information from form
 $Name = filter_input(INPUT_POST,"Name");
 $Body = filter_input(INPUT_POST,"Body");
-$Skill = filter_input(INPUT_POST,"Skill");
+$Skills = filter_input(INPUT_POST,"Skill");
 
 //Check validation of Name
 if (empty($Name)) {
@@ -30,9 +30,9 @@ else {
 if (empty($Skill)) {
     $message = "Please type skill(s) in";
 }
-elseif (strpos($Skill,',') === true)
+elseif (strpos($Skills,',') === true)
 {
-    $Array = explode(',', $Skill);
+    $Array = explode(',', $Skills);
     echo '<pre>'; print_r($Array); echo '</pre>';
 }
 ?>

@@ -9,32 +9,34 @@
 </head>
 <body>
 <main>
-    <h1>New Question Form</h1>
-    <div id="container">
+
+    <ul>
+        <li><a class="active" href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="question.html">New Question</a></li>
+    </ul>
+
+
         <form action="question.php" method="post">
-            <label>The Question Name </label>
+            <label>Question Name </label>
             <input type="text" name="Name"><br>
 
-            <label> The Question Body</label>
+            <label> Question Body</label>
             <input type="text" name="Body"><br>
 
-            <label> Question Skills 1</label>
+            <label> Skill 1</label>
             <input type="text" name="Skill1"><br>
-            <label> Question Skills 2</label>
+            <label> Skill 2</label>
             <input type="text" name="Skill2"><br>
-            <label> Question Skills 3</label>
+            <label> Skill 3</label>
             <input type="text" name="Skill3"><br>
 
-            <div id="lower">
-                <div id = "buttons">
                     <label> &nbsp;</label>
                     <input type="submit" value="submit"><br>
-                </div>
-            </div>
+
 
         </form>
 
-    </div>
 </main>
 
 
